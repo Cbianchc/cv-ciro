@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Ciro Bianchimani</title>
+</head>
+<body>
+    <header class="header">
+      <a href="#inicio-pagina" class="logo-header">Mi.Cv</a>
+      <input type="checkbox" id="side-menu" class="side-menu">
+      <label id="ocultar-menu" for="side-menu" class="hamb"><span class="hamb-line"></span></label>
+      <nav class="nav">
+        <ul class="menu-nav">
+            <li><a onclick="ocultarMenu()" href="#incio-link">Home</a></li>
+            <li><a onclick="ocultarMenu()" id="click-cerrar" href="#estudio-link">Education</a></li>
+            <li><a onclick="ocultarMenu()" href="#experiencia-todo">Experience</a></li>
+            <li><a onclick="ocultarMenu()" href="#proyecto-link">Proyects</a></li>
+            <li><a onclick="ocultarMenu()" href="https://github.com/Cbianchc" target="_blank">GitHub</a></li>
+            <li><a onclick="ocultarMenu()" href="https://www.linkedin.com/in/cirobianchimani/" target="_blank">LinkedIn</a></li>
+            <li><a onclick="ocultarMenu()" href="#contacto-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>   
+    <main class="contenido">
+      <!---------------------------------Inicio del contenido principal-->
+      <section id="incio-link" class="inicio-pagina">
+          <div class="conteiner-tarjeta">
+            <div class="header-persona">
+                <a href="#">
+                  <img src="../imagenes/perfilciro3.png"
+                  style="max-width: 150px;"
+                   class="foto-perfil" alt="">
+                </a>
+                <h2>Ciro Bianchimani</h2>
+                <h4>Full Stack JavaScript</h4>  
+                <div class="conteiner-info-personal">
+                  <p><span>Age: </span>37 years old</p>
+                  <p><span>D.O.B:</span> Nov-12-1985</p>
+                  <p><span>Place of birth:</span> Argentina</p>
+                  <p><span>Marital status:</span> Married</p>
+                  <p><span>CUIL:</span> 20-31937836-9</p>
+                </div>
+            </div>
+            <div class="descripcion-persona">
+              <!--                              traductor     -->
+              <div class="traductor">
+                <span class="idiomas-banderita">Esp 
+                  <img class="banderita" src="../imagenes/idioma/espana.png" alt="">
+                </span>
+              
+                <input type="checkbox" class="traducir-cv" checked>
+           
+                <span class="idiomas-banderita">Eng
+                  <img class="banderita" src="../imagenes/idioma/reino-unido.png" alt="">
+                </span>
+              </div>
+                <p>Developer and Personal Trainer from Argentina. 💻&💪 Full Stack Developer | HTM, CSS, SCSS, Bootstrap, JavaScript, React.js - MongoDB y PostgresSQL.</p>
+                <div class="social-persona">
+                  <a href="#contacto-link">
+                    <img class="links-persona" src="./imagenes/whatsapp.png" alt="">
+                  </a>
+                  <a href="#contacto-link">
+                    <img class="links-persona" src="./imagenes/Gmail_round.png" alt="">
+                  </a>
+                  <a href="https://github.com/Cbianchc" target="_blank">
+                    <img class="links-persona" src="./imagenes/logogithub2.png" alt="">
+                  </a>
+                  <a href="https://www.linkedin.com/in/cirobianchimani/" target="_blank">
+                    <img class="links-persona" src="./imagenes/linkedin1.png" alt="">
+                  </a>
+                  <!-- <a href="#">
+                    <img class="links-persona" src="./imagenes/file.png" alt="">
+                  </a> -->
+                </div>
+            </div>
+          </div>    
+      </section>        
+      <!----------------------------------------------Area de estudio-->    
+      <section id="estudio-link" class="tecno-todo">
+        <h2>Estudies y Tecnologies</h2>
+        <div class="conteiner-estudios">
+          <div class="card">
+              <div class="face front">
+                  <img src="./imagenes/javascript-small-vertical.png" alt="">
+                  <h3>Logic</h3>
+              </div>
+              <div class="face back">
+                  <h3>Logic and POO</h3>
+                  <p>Course at Argentina Programa - Approved</p>
+                  <p>Course at Ticmas - Final Proyect - Approved</p>
+                  <p>Course at Platzi full stack JS - final Proyect - Completed</p>
+                  <div class="link">
+                    <a href="#proyecto-link">View more...</a>
+                  </div>
+              </div>
+          </div>
+          <div class="card">
+              <div class="face front">
+                  <img src="./imagenes/htmlcss.png" alt="">
+                  <h3>HTML5 y CSS3</h3>
+              </div>
+              <div class="face back">
+                <h3>Desing</h3>
+                <p>Course at platzi - Flexbox</p>
+                <p>Course bluuweb - Grid</p>
+                <p>Self-educated with Youtube videos</p>
+                <p>Course at Ticmas - T.P. final - Approved</p>
+                  <div class="link">
+                    <a href="#proyecto-link">View more...</a>
+                  </div>
+              </div>
+          </div>
+          <div class="card">
+            <div class="face front">
+                <img src="./imagenes/bootstrap-vertical.jpg" alt="">
+                <h3>Styles</h3>
+            </div>
+            <div class="face back">
+              <h3>Layouts and styles</h3>
+              <p>Self-educated on Bootstrap web</p>
+              <p>Course bluuweb - Bootstrap bases - Completed</p>
+              <p>Self-educated - Youtube videos</p>
+                <div class="link">
+                    <a href="#proyecto-link">View more...</a>
+                </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="face front">
+                <img src="./imagenes/nodeyexpress2.png" alt="">
+                <h3>Environment</h3>
+            </div>
+            <div class="face back">
+                <h3>Development environment</h3>
+                <p>Course - FreeCodeCamp</p>
+                <p>Course - Blueweb</p>
+                <p>Self-educated Youtube videos</p>
+                <div class="link">
+                  <a href="#proyecto-link">View more...</a>
+                </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="face front">
+                <img src="./imagenes/gitygithub.png" alt="">
+                <h3>Version control</h3>
+            </div>
+            <div class="face back">
+                <h3>Git y GitHub</h3>
+                <p>Course - FreeCodeCamp</p>
+                <p>Course - Blueweb</p>
+                <p>Self-educated Youtube videos</p>
+                <div class="link">
+                  <a href="#proyecto-link">View more...</a>
+                </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="face front">
+                <img src="./imagenes/mongo.png" alt="">
+                <h3>No-SQL DB</h3>
+            </div>
+            <div class="face back">
+                <h3>NoSQL Data Base</h3>
+                <p>Course - FreeCodeCamp</p>
+                <p>Course - Blueweb</p>
+                <p>Self-educated Youtube videos</p>
+                <div class="link">
+                  <a href="#proyecto-link">View more...</a>
+                </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="face front">
+                <img src="./imagenes/postgres.png" alt="">
+                <h3>DB SQL</h3>
+            </div>
+            <div class="face back">
+                <h3>SQL Data Base</h3>
+                <p>Course - Blueweb</p>
+                <p>self-educated Youtube videos</p>
+                <div class="link">
+                  <a href="#proyecto-link">View more...</a>
+                </div>
+            </div>
+          </div>
+
+
+          <div class="card">
+            <div class="face front">
+                <img src="./imagenes/secundario-2.png" alt="">
+                <h3>High school</h3>
+            </div>
+            <div class="face back">
+              <h3>Escuela Técnica N°11</h3>
+              <p>1999 al 2004</p>
+              <p>Degree: Maestro Mayor de Obras</p>
+              <p>Specialization: construcciones civiles</p>
+                <div class="link">
+                  <a href="#proyecto-link">View more...</a>
+                </div>
+            </div>
+            </div>
+        </div>
+      </section>            
+      <!------------------------------------------Area de experiencia-->    
+      <section id="experiencia-todo" class="experiencia-todo">
+            <h2 class="exp-laboral">Job experience</h2>
+            <div class="container">
+                <div class="content">
+                  <p>Jan 2021</p>
+                  <div class="accordion_item" style="background-color: #bef264;">
+                    <div class="accordion_header">
+                      <span>
+                        PC-Notebook repair technician
+
+                      </span> 
+                      <div class="icon">
+                        read more...
+                      </div>
+                    </div>
+            
+                    <div class="accordion_content">
+                      <p>
+                        After completing a PC-Notebook repair course (
+                        electronic oriented) i worked a little over a year as a technician for companies, repair services, hardware maintenance cleaning and components replacement and configurations, also software updates and mantenance
+                    </div>
+                  </div>
+                  <p>February 2022</p>
+                  <div class="accordion_item" style="background-color: #6ee7b7;">
+                    <div class="accordion_header">
+                      <span>
+                        Other job on sales and customer support
+
+                      </span> 
+                      <div class="icon">
+                        Read more...
+                      </div>
+                    </div>
+            
+                    <div class="accordion_content">
+                      <p>
+                        - Magic School: Product Seller and teacher, customer service, teacher.
+                        - Insurance sales: Phone sales
+                      </p>
+                    </div>
+                  </div>
+                  <p>March 2019</p>
+                  <div class="accordion_item" style="background-color: #d28fc7;">
+                    <div class="accordion_header">
+                      <span>
+                        Registro Nacional de las Personas 
+                      </span> 
+                      <div class="icon">
+                        Read more...
+                      </div>
+                    </div>
+            
+                    <div class="accordion_content">
+                      <p>
+                        - Customer service and support - call center
+                      </p>
+                    </div>
+                  </div>
+                  <p>November 2018</p>
+                  <div class="accordion_item" style="background-color: #e15656;">
+                    <div class="accordion_header">
+                      <span>
+                        Fitness Center - own business
+                      </span> 
+                      <div class="icon">
+                        Read more...
+                      </div>
+                    </div>
+            
+                    <div class="accordion_content">
+                      <p>
+                        - I worked as a aerobics class instructor, bodybuilding instructor, spinning and cardio instructor, finally as a personal trainer on different gyms
+                        - Own business, fitness rooms, bootcamps, nutrition box, massages. (closed due to pandemic)
+                      </p>
+                    </div>
+                </div>
+              </div>
+      </section>
+      <!------------------------------------Area de proyectos propios-->    
+      <section id="proyecto-link" class="proyectos">
+          <h2 class="galeria-h2">Proyect galery</h2>
+          <div class="conteiner-galeria">
+            <div class="item-galeria">
+              <a href="https://mokeponcanvas.netlify.app/" target="_blank">
+                <h3 class="titulo-imagen">Proy final - Platzi</h3>
+                <img src="imagenes/proyectos/mokeponimg.png" alt="" class="imagen-galeria">
+              </a>
+            </div>
+            <div class="item-galeria">
+              <a href="https://react-calc-practica1.netlify.app/" target="_blank">
+                <h3 class="titulo-imagen">Card game counter - practice</h3>
+                <img src="imagenes/proyectos/truco1.png" alt="" class="imagen-galeria">
+              </a>
+            </div>
+            <div class="item-galeria">
+              <a href="https://thisorthat1.netlify.app/" target="_blank">
+                <h3 class="titulo-imagen">Fitness game (this or that)</h3>
+                <img src="imagenes/proyectos/thisorthatimg.png" alt="" class="imagen-galeria">
+              </a>
+            </div>
+            <div class="item-galeria">
+              <a href="https://piedrapapeltijera1.netlify.app/" target="_blank">
+                <h3 class="titulo-imagen">Fitness game (Rock, paper, scissors)</h3>
+                <img src="imagenes/proyectos/PPT-img.png" alt="" class="imagen-galeria">
+              </a>
+            </div>
+            <div class="item-galeria">
+              <a href="https://practica-api-pokemon.netlify.app/" target="_blank">
+                <h3 class="titulo-imagen">Poke-api</h3>
+                <img src="imagenes/proyectos/poke-api.png" alt="" class="imagen-galeria">
+              </a>
+            </div>
+            <div class="item-galeria">
+              <a href="https://react-calc-practica1.netlify.app/" target="_blank">
+                <h3 class="titulo-imagen">Calc with React.js - frontend menthor</h3>
+                <img src="imagenes/proyectos/React-Calc-FCC-final.png" alt="" class="imagen-galeria">
+              </a>
+            </div>
+            <div class="item-galeria">
+              <a href="https://practica-frontend-1.netlify.app/" target="_blank">
+                <h3 class="titulo-imagen">Card - frontend - practice</h3>
+                <img src="imagenes/proyectos/tarjeta-fronend-1.png" alt="" class="imagen-galeria">
+              </a>
+              </div>
+            <div class="item-galeria">
+              <a href="https://spiffy-basbousa-852ef6.netlify.app" target="_blank">
+                <h3 class="titulo-imagen">Card responsive - practice</h3>
+                <img src="imagenes/proyectos/tarjeta-responsive-final.png" alt="" class="imagen-galeria">
+              </a>
+            </div>
+            <div class="item-galeria">
+              <a href="https://practica-bootstrap5-1.netlify.app/" target="_blank">
+                <h3 class="titulo-imagen">Responsive card con Bootstrap - Practice</h3>
+                <img src="imagenes/proyectos/cardBootstrapprueba.png" alt="" class="imagen-galeria">
+              </a>
+            </div>
+            <div class="item-galeria">
+              <a href="https://cv-ticmas-final.netlify.app/index.html" target="_blank">
+                <h3 class="titulo-imagen">Final proyect - Ticmas - multi-language</h3>
+                <img src="imagenes/cv-ticmas.png" alt="" class="imagen-galeria">
+              </a>
+            </div>
+          </div>
+          
+      </section>
+      <!-------------------------------------------Area de contacto-->    
+      <section id="contacto-link" class="contacto">
+          <div class="datos-conteiner">
+            <div class="titulo-contacto">
+              <h2>Contact info:</h2>
+            </div>
+            <div class="items-contacto">
+              <div class="item-imagen">
+                <img src="imagenes/directorio-telefonico.png" alt="" class="imagen-decoracion">
+              </div>
+              <div class="datos-container">
+                <div class="item-telefono">
+                  <img src="imagenes/whatsapp.png" alt="" class="imagen-telefono">
+                  <h4>Phone / whatsapp</h4>
+                  <h5><span>11-6502-6238</span></h5>
+                </div>
+                <div class="item-telefono">
+                  <img src="imagenes/gmail.png" alt="" class="imagen-telefono">
+                  <h4>E-mail</h4>
+                  <p><span>bianchimaniciroe@gmail.com</span></p>
+                  <!-- <div class="item-telefono-muy-chico">
+                    <span >jose.gamarra.capo</span>
+                    <span>gmail.com</span>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+    </main>
+    <script src="./app.js"></script>
+
+</body>
+</html>
