@@ -577,25 +577,49 @@ p {
     justify-items: center; 
     padding: 20px 10px;
 }
+
+.botones-proys{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 10px 0 0 0; */
+}
+.btn-proy-git{
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: .6rem;
+    font-weight: 600;
+    border: 1px solid #343434;
+    background-color: #e3e3e3;
+    cursor: pointer;
+}
+.btn-proy-git:hover{
+    background-color: #343434;
+    color: #e3e3e3;
+}
+
+
 .item-galeria{
-    background-color: #ddd;
+    background-color: #eaa4ff;
     height: 250px;
     width: 250px;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 8px 10px 5px #0003;   
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.2);  
 }
 .item-galeria:hover {
-    opacity: 70%;
+    opacity: 90%;
     background: rgb(236, 149, 182);
-    cursor: pointer;
+    cursor: pointer; 
     box-shadow: 4px 5px 3px rgba(0, 0, 0, 0.2);  
-    height: 240px;
-    width: 240px;
+    height: 245px;
+    width: 245px; 
 }
 .titulo-imagen{
     color: #000;
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-align: center;
 }
 .imagen-galeria{
@@ -609,7 +633,7 @@ p {
 @media(max-width: 768px){
     .item-galeria{
         width: 80%;
-        height: 340px;
+        height: 345px;
         box-shadow: 8px 10px 5px #0003;
     }
     .item-galeria:hover{
@@ -618,6 +642,62 @@ p {
         box-shadow: 8px 10px 5px #0003;
     }
 }
+/* .card{
+    width: 250px;
+    height: auto;
+    position: relative;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 4px;
+    padding: 20px;
+    transition: all .3s ease-in;
+    background-image: url(../imagenes/proyectos/mokeponimg.png);
+    background-size: cover;
+
+}
+/* .card > *{
+    padding: 1px;
+} */
+/* .card .card-image{
+    height: 150px;
+    width: 150px;
+    border: 5px double #022a3c;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;    
+} 
+.card-title{
+    padding: 10px 10px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 2px #262654;
+}
+/* .card:nth-child(1) .card-image{
+    background-image: url(../imagenes/proyectos/poke-api.png);
+}
+.card:nth-child(2) .card-image{    
+    background-image: url(../imagenes/proyectos/poke-api.png);
+}
+.card:nth-child(3) .card-image{
+    background-image: url(../imagenes/proyectos/poke-api.png);
+} 
+.card:hover{
+    background: #e84393;
+    opacity: 0.8;
+    color: #fff;
+    box-shadow: 0px 0px 11px 5px #000000;
+
+}
+
+.card .card-text{
+    line-height: 20px;
+    font-size: 400;
+} */
+
+
 /*------------------------------------------------------- Fin de galeria de proyectos */
 
 
